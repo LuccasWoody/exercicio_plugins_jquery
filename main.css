@@ -1,0 +1,50 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(134, 210, 243), rgb(50, 98, 121));
+}
+
+section {
+    padding: 48px 0;
+}
+
+form h2 {
+    margin-bottom: 18px;
+}
+
+.form-campo {
+    margin-bottom: 16px;
+}
+
+.form-campo label {
+    font-weight: bold;
+    display: block;
+}
+
+.form-campo input {
+    width: 100%;
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+
+form {
+    max-width: 360px;
+    display: block;
+}
+
+form input {
+    display: inline-block;
+
+}
+
+form button {
+    width: 70px;
+    height: 25px;
+}
